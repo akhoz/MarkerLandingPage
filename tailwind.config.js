@@ -14,6 +14,10 @@ export default {
         myDarkBlue: 'hsl(230, 60%, 8%)',
         myRed: 'hsl(343, 100%, 58%)'
         
+      },
+      backgroundImage: {
+        'hero': 'url(maker-pre-launch-landing-page-figma/maker-pre-launch-landing-page/starter-code/assets/bg-hero-squiggle.svg)',
+        'footer': 'url(maker-pre-launch-landing-page-figma/maker-pre-launch-landing-page/starter-code/assets/bg-footer-squiggle.svg)'
       }
     },
   },

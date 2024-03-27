@@ -1,6 +1,6 @@
 import './App.css'
 import TitleMobile from './components/TitleMobile';
-
+import Title from './components/Title';
 function App() {
   const assetsPath: string = 'maker-pre-launch-landing-page-figma/maker-pre-launch-landing-page/starter-code/assets/';
 
@@ -12,6 +12,7 @@ function App() {
           alt='logo'/>
       </div>
       <TitleMobile/>
+      <Title/>
     </div>
   )
 }
