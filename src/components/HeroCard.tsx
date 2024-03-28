@@ -8,19 +8,21 @@ interface HeroCardProps {
 function HeroCard(props: HeroCardProps) {
 
     return (
-        <div className='flex flex-col items-center justify-center md:flex-row lg:flex-col max-w-xs'>
-            <div className='flex items-center justify-center bg-myBlue rounded-3xl h-28 w-28'>
+        <div className='flex flex-col items-center justify-center md:flex-row lg:flex-col max-w-xs md:max-w-xl'>
+            <div className='flex items-center justify-center bg-myBlue rounded-3xl h-32 w-32 md:w-44 md:mr-16 '>
                 <img
                     src={props.imgSrc}
                     alt={props.imgAlt}
-                    className='w-3/5'/>
+                    className='w-16'/>
             </div>
-            <p className='text-white text-lg font-bold mt-6 mb-2'>
-                {props.title}
-            </p>
-            <p className='text-myGray text-center'>
-                {props.description}
-            </p>
+            <div className='text-center md:flex md:flex-col md:justify-center md:h-full md:text-start'>
+                <p className='text-white text-lg font-bold mt-6 mb-2 md:mt-0'>
+                    {props.title}
+                </p>
+                <p className='text-myGray'>
+                    {props.description}
+                </p>
+            </div>
         </div>
     );
 }
