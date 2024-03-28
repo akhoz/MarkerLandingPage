@@ -45,11 +45,11 @@ function App() {
             description='Selling online means not being pinned down. Want to work AND travel? Go for it!'/>
         </div>
       </div>
-      <div className='flex flex-col text-center justify-center items-center mx-5'>
+      <div className='flex flex-col text-center justify-center items-center mx-5 md:mx-20'>
         <p className='text-2xl text-white font-extrabold mb-8'>
           Our pricing plans
         </p>
-        <p className='text-myGray'>
+        <p className='text-myGray lg:mx-96'>
           We only make money when our creators make money. Our plans are always affordable and it's completly free to get started
         </p>
       </div>
