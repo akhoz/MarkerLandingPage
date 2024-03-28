@@ -1,5 +1,5 @@
 function TitleMobile() {
-    const assetsPath: string = './src/assets/';
+    const assetsPath: string = './images/';
     
     return (
         <div className='flex flex-col justify-center items-center md:hidden'>

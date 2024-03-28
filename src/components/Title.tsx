@@ -1,5 +1,5 @@
 function Title() {
-    const assetsPath: string = './assets/';
+    const assetsPath: string = './images/';
     return (
         <div className='hidden md:block mt-20 lg:mt-24'>
             <div className='flex flex-row items-center justify-center overflow-hidden'>
