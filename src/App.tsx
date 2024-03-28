@@ -4,7 +4,7 @@ import Title from './components/Title';
 import HeroCard from './components/HeroCard';
 
 function App() {
-  const assetsPath: string = 'src/assets/';
+  const assetsPath: string = './src/assets/';
 
   return (
     <div className='flex flex-col'>
