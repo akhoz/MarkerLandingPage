@@ -1,5 +1,5 @@
 function TitleMobile() {
-    const assetsPath: string = './maker-pre-launch-landing-page-figma/maker-pre-launch-landing-page/starter-code/assets/';
+    const assetsPath: string = './src/assets/';
     
     return (
         <div className='flex flex-col justify-center items-center md:hidden'>

@@ -1,6 +1,5 @@
 function Title() {
-    const assetsPath: string = './maker-pre-launch-landing-page-figma/maker-pre-launch-landing-page/starter-code/assets/';
-
+    const assetsPath: string = './src/assets/';
     return (
         <div className='hidden md:block mt-20 lg:mt-24'>
             <div className='flex flex-row items-center justify-center overflow-hidden'>

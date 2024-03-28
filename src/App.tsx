@@ -2,7 +2,7 @@ import './App.css'
 import TitleMobile from './components/TitleMobile';
 import Title from './components/Title';
 function App() {
-  const assetsPath: string = 'maker-pre-launch-landing-page-figma/maker-pre-launch-landing-page/starter-code/assets/';
+  const assetsPath: string = 'src/assets/';
 
   return (
     <div className='flex flex-col'>
