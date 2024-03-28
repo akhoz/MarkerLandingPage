@@ -16,8 +16,8 @@ export default {
         
       },
       backgroundImage: {
-        'hero': 'url(maker-pre-launch-landing-page-figma/maker-pre-launch-landing-page/starter-code/assets/bg-hero-squiggle.svg)',
-        'footer': 'url(maker-pre-launch-landing-page-figma/maker-pre-launch-landing-page/starter-code/assets/bg-footer-squiggle.svg)'
+        'hero': 'url(./images/bg-hero-squiggle.svg)',
+        'footer': 'url(./images/bg-footer-squiggle.svg)'
       }
     },
   },
