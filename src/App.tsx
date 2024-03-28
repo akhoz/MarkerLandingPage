@@ -15,7 +15,7 @@ function App() {
       </div>
       <TitleMobile/>
       <Title/>
-      <div className='flex flex-col items-center justify-center mt-40 space-y-14 lg:flex-row lg:space-y-0 lg:mx-10'>
+      <div className='flex flex-col items-center justify-center my-40 space-y-14 lg:flex-row lg:space-y-0 lg:mx-10'>
         <div className='md:ml-20 lg:ml-0'>
           <HeroCard
             imgSrc={`${assetsPath}illustration-passions.svg`}
@@ -44,6 +44,14 @@ function App() {
             title='Work from anywhere'
             description='Selling online means not being pinned down. Want to work AND travel? Go for it!'/>
         </div>
+      </div>
+      <div className='flex flex-col text-center justify-center items-center mx-5'>
+        <p className='text-2xl text-white font-extrabold mb-8'>
+          Our pricing plans
+        </p>
+        <p className='text-myGray'>
+          We only make money when our creators make money. Our plans are always affordable and it's completly free to get started
+        </p>
       </div>
     </div>
   )

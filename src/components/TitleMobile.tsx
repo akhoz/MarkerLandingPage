@@ -7,7 +7,7 @@ function TitleMobile() {
                 src={`${assetsPath}illustration-hero-mobile.png`}
                 alt='hero mobile'
                 className='mt-16 mb-12'/>
-            <p className='text-3xl font-bold text-white text-center mx-10'>
+            <p className='text-3xl font-extrabold text-white text-center mx-10'>
                 Get paid for the work you <span className='text-myAquamarine'>love</span> to do.
             </p>
             <p className='text-myGray text-center mx-8 my-8'>
