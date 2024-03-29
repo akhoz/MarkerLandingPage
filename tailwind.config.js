@@ -16,8 +16,8 @@ export default {
         
       },
       backgroundImage: {
-        'hero': "url('./images/bg-hero-squiggle.svg')",
-        'footer': "url('./images/bg-footer-squiggle.svg')"
+        'hero': "url('images/bg-hero-squiggle.svg')",
+        'footer': "url('images/bg-footer-squiggle.svg')"
       }
     },
   },
