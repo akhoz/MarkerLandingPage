@@ -1,6 +1,7 @@
 interface CardDescriptionProps {
     svgColor: string;
     description: string;
+    textColor: string;
 
 }
 
@@ -13,7 +14,7 @@ function CardDescription(props: CardDescriptionProps) {
             height="9">
             <path fill={props.svgColor} d="M10.319.768l1.363 1.464-7.128 6.634L.319 4.924 1.682 3.46l2.871 2.674z"/>
         </svg>
-            <p className='text-white font-semibold ml-4'>
+            <p className={`${props.textColor} font-semibold ml-4`}>
                 {props.description}
             </p>
         </div>
