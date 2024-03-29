@@ -2,6 +2,7 @@ import './App.css'
 import TitleMobile from './components/TitleMobile';
 import Title from './components/Title';
 import HeroCard from './components/HeroCard';
+import FreeCard from './components/FreeCard';
 
 function App() {
   const assetsPath: string = './images/';
@@ -53,6 +54,8 @@ function App() {
           We only make money when our creators make money. Our plans are always affordable and it's completly free to get started
         </p>
       </div>
+      <FreeCard/>
+      <FreeCard/>
     </div>
   )
 }
