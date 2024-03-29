@@ -1,6 +1,18 @@
+import CardDescription from "./CardDescription";
+
+interface FreeCardProps {
+    icon: string;
+    bgColor: string;
+    checkColor: string;
+    semiTitle: string;
+    text: string;
+    title: string;
+}
+
 
 function FreeCard() {
     const assetsPath: string = './images/';
+    const checkColor: string = '#3EE9E5'
     return (
         <div className='relative mt-16'>
             <img src={`${assetsPath}icon-free.svg`}
@@ -16,50 +28,10 @@ function FreeCard() {
                     Free
                 </p>
                 <div className='flex flex-col pb-5'>
-                    <div className='flex flex-row items-center mb-5'>
-                    <svg 
-                        xmlns="http://www.w3.org/2000/svg" 
-                        width="12" 
-                        height="9">
-                        <path fill="#3EE9E5" d="M10.319.768l1.363 1.464-7.128 6.634L.319 4.924 1.682 3.46l2.871 2.674z"/>
-                    </svg>
-                        <p className='text-white font-semibold ml-4'>
-                            Unlimited products
-                        </p>
-                    </div>
-                    <div className='flex flex-row items-center mb-5'>
-                    <svg 
-                        xmlns="http://www.w3.org/2000/svg" 
-                        width="12" 
-                        height="9">
-                        <path fill="#3EE9E5" d="M10.319.768l1.363 1.464-7.128 6.634L.319 4.924 1.682 3.46l2.871 2.674z"/>
-                    </svg>
-                        <p className='text-white font-semibold ml-4'>
-                            Basic analytics
-                        </p>
-                    </div>
-                    <div className='flex flex-row items-center mb-5'>
-                    <svg 
-                        xmlns="http://www.w3.org/2000/svg" 
-                        width="12" 
-                        height="9">
-                        <path fill="#3EE9E5" d="M10.319.768l1.363 1.464-7.128 6.634L.319 4.924 1.682 3.46l2.871 2.674z"/>
-                    </svg>
-                        <p className='text-white font-semibold ml-4'>
-                            Limited marketplace exposure
-                        </p>
-                    </div>
-                    <div className='flex flex-row items-center mb-5'>
-                    <svg 
-                        xmlns="http://www.w3.org/2000/svg" 
-                        width="12" 
-                        height="9">
-                        <path fill="#3EE9E5" d="M10.319.768l1.363 1.464-7.128 6.634L.319 4.924 1.682 3.46l2.871 2.674z"/>
-                    </svg>
-                        <p className='text-white font-semibold ml-4'>
-                            10% fee per transaction
-                        </p>
-                    </div>
+                    <CardDescription svgColor={checkColor} description='Unlimited products'/>
+                    <CardDescription svgColor={checkColor} description='Basic analytics'/>
+                    <CardDescription svgColor={checkColor} description='Limited marketplace exposure'/>
+                    <CardDescription svgColor={checkColor} description='10% fee per transaction'/>
                 </div>
             </div>
         </div>
