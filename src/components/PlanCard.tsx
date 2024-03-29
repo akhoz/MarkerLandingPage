@@ -16,7 +16,7 @@ interface FreeCardProps {
 function FreeCard(props: FreeCardProps) {
 
     return (
-        <div className='relative mt-16'>
+        <div className='relative mt-16 md:mx-44 lg:mx-0 '>
             <img src={props.icon}
             className='absolute top-0 ml-12'/>
             <div className={`${props.bgColor} ${props.iconSpace} pt-3 px-8 mx-5 rounded-lg`}>

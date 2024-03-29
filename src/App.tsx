@@ -54,26 +54,28 @@ function App() {
           We only make money when our creators make money. Our plans are always affordable and it's completly free to get started
         </p>
       </div>
-      <PlanCard 
-        icon='./images/icon-free.svg'
-        iconSpace='mt-6'
-        bgColor='bg-myBlue'
-        titleColor='text-white'
-        textColor='text-myGray'
-        checkColor='#3EE9E5'
-        semiTitle='Dip your toe'
-        text='Just getting started? No problem at all! Our free plan will take you a long the way.'
-        title='Free'/>
-      <PlanCard
-        icon='./images/icon-paid.svg'
-        iconSpace='mt-8'
-        bgColor='bg-myAquamarine'
-        titleColor='text-myDarkBlue'
-        textColor='text-myBlue'
-        checkColor='text-myDarkBlue'
-        semiTitle='Dive right in'
-        text='Ready for the big time? Our paid plan will help you take your business to the next level.'
-        title='$25.00'/>
+      <div className='relative flex flex-col lg:flex lg:flex-row lg:items-center lg:justify-center lg:mx-40'>
+        <PlanCard 
+          icon='./images/icon-free.svg'
+          iconSpace='mt-6'
+          bgColor='bg-myBlue'
+          titleColor='text-white'
+          textColor='text-myGray'
+          checkColor='#3EE9E5'
+          semiTitle='Dip your toe'
+          text='Just getting started? No problem at all! Our free plan will take you a long the way.'
+          title='Free'/>
+        <PlanCard
+          icon='./images/icon-paid.svg'
+          iconSpace='mt-8'
+          bgColor='bg-myAquamarine'
+          titleColor='text-myDarkBlue'
+          textColor='text-myBlue'
+          checkColor='text-myDarkBlue'
+          semiTitle='Dive right in'
+          text='Ready for the big time? Our paid plan will help you take your business to the next level.'
+          title='$25.00'/>
+      </div>
        
     </div>
   )
