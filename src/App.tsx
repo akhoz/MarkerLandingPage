@@ -3,6 +3,7 @@ import TitleMobile from './components/TitleMobile';
 import Title from './components/Title';
 import HeroCard from './components/HeroCard';
 import PlanCard from './components/PlanCard';
+import GetNotifiedForm from './components/GetNotifiedForm';
 
 function App() {
   const assetsPath: string = './images/';
@@ -76,7 +77,12 @@ function App() {
           text='Ready for the big time? Our paid plan will help you take your business to the next level.'
           title='$25.00'/>
       </div>
-       
+    <div className='flex flex-col items-center justify-center bg-footer bg-center bg-contain bg-no-repeat w-screen pt-40 mb-40 md:pt-10 md:mt-20 lg:w-full lg:bg-cover lg:py-12'>
+      <p className='text-white font-extrabold text-xl text-center mx-20 mb-10'>
+        Get notified when we launch
+      </p>
+      <GetNotifiedForm/>
+    </div>
     </div>
   )
 }
